@@ -1,4 +1,4 @@
-# mini_blockchain
+# block_chain_demo
 
 Implementación educativa de una blockchain minimalista en Rust, con estructura
 de proyecto profesional: separación en módulos, manejo de errores propio,
@@ -15,7 +15,7 @@ tests unitarios y de integración, ejemplos ejecutables y documentación.
 ## Estructura del proyecto
 
 ```
-mini_blockchain/
+block_chain_demo/
 ├── Cargo.toml
 ├── src/
 │   ├── lib.rs          # Punto de entrada de la biblioteca, re-exporta la API pública
@@ -32,7 +32,7 @@ mini_blockchain/
 ## Uso como biblioteca
 
 ```rust
-use mini_blockchain::Blockchain;
+use block_chain_demo::Blockchain;
 
 fn main() {
     let mut chain = Blockchain::new(2); // dificultad = 2 ceros iniciales
